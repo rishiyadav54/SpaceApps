@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar System</title>
+    <style>
+      * {
+        color: rgb(166, 254, 244);
+      }
+      div {
+        display: none;
+      }
+      p {
+        display: none;
+        position: absolute;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size : 18px;
+    margin-top: 30px;
+    margin-left: 75px;
+    margin-right: 200px;
+      }
+      body {
+        margin: 0;
+      }
+      #info {
+        display: block;
+      }
+    </style>
+
+    <!-- invisible -->
+
+    <p id="small_info_sun">Sun : Our Energy source</p>
+
+    <p id="more_info_sun">
+      The Sun is our solar system's central star, a giant ball of hot gas
+      powered by nuclear fusion. It provides light, heat, and gravitational
+      influence for our planets. Solar activity, like sunspots and solar flares,
+      can impact Earth. In the distant future, it will transform into a red
+      giant and then a white dwarf.
+    </p>
+
+    <p id="small_info_earth">Earth : Our own home</p>
+
+    <p id="more_info_earth">
+      Earth is the third planet from the sun Earth, the third planet from the
+      Sun, is a diverse and unique world. It has a varied climate, vast oceans,
+      and continents teeming with life. Home to human civilization, it faces
+      environmental challenges like climate change and pollution. Earth's
+      exploration helps us understand our place in the universe and the
+      importance of preserving this precious planet for future generations.
+    </p>
+
+    <p id="small_info_mercury">Mercury</p>
+    <p id="more_info_mercury">
+      Mercury is the closest planet to the Sun in our solar system, with extreme
+      temperature variations, ranging from scorching to frigid. It has a thin
+      atmosphere and a barren, cratered surface. Mercury has no natural
+      satellites and completes its orbit around the Sun in about 88 Earth days.
+      It's a rocky, terrestrial planet, similar in composition to Earth's moon.
+    </p>
+
+    <p id="small_info_venus">Venus</p>
+
+    <p id="more_info_venus">
+      Venus is the second planet from the Sun and is often called Earth's
+      "sister planet" due to its similar size and composition. It has a thick,
+      toxic atmosphere primarily composed of carbon dioxide, which traps heat,
+      making it the hottest planet in our solar system. Venus is known for its
+      extreme temperatures, crushing surface pressure, and a runaway greenhouse
+      effect. Its surface is rocky and filled with volcanic plains and
+      mountains, with no water and a lack of hospitable conditions for life as
+      we know it.
+    </p>
+    <p id="small_info_mars">Mars</p>
+    <p id="more_info_mars">
+      Mars, the fourth planet from the Sun, is often called the "Red Planet" due
+      to its reddish appearance. It has a thin atmosphere primarily composed of
+      carbon dioxide and a cold, desert-like surface. Mars is known for its
+      potential as a target for human exploration and colonization in the
+      future. It has evidence of liquid water in the past, and its surface
+      features include massive volcanoes, deep canyons, and a polar ice cap.
+      Ongoing missions continue to explore Mars for signs of past or present
+      life and to understand its geology and potential for sustaining human
+      presence.
+    </p>
+    <p id="small_info_jupiter">jupiter</p>
+
+    <p id="more_info_jupiter">
+      Jupiter is the largest planet in our solar system, known for its immense
+      size and striking bands of gas in its atmosphere. It is a gas giant,
+      composed mainly of hydrogen and helium. Jupiter has a strong magnetic
+      field and dozens of moons, with the four largest known as the Galilean
+      moons: Io, Europa, Ganymede, and Callisto. It plays a crucial role in
+      protecting the inner solar system from potential asteroid impacts due to
+      its gravitational influence. Jupiter has a stormy atmosphere, with the
+      Great Red Spot being a notable feature. It lacks a solid surface and is
+      inhospitable for human life.
+    </p>
+
+    <p id="small_info_saturn">Saturn</p>
+
+    <p id="more_info_saturn">
+      Saturn is the sixth planet from the Sun, recognized for its stunning ring
+      system made up of icy and rocky particles. It is a gas giant, primarily
+      composed of hydrogen and helium. Saturn has a complex system of over 80
+      moons, including Titan, the second-largest moon in the solar system. It
+      possesses a prominent and extensive ring system, comprising several
+      distinct ring groups. Saturn's colorful bands of clouds and its
+      hexagonal-shaped polar storm are notable atmospheric features. It lacks a
+      solid surface and is inhospitable for human habitation.
+    </p>
+
+    <p id="small_info_uranus">Uranus</p>
+
+    <p id="more_info_uranus">
+      Uranus is the seventh planet from the Sun and is characterized by its
+      unique sideways rotation, which causes it to roll on its side. It is an
+      ice giant, composed of water, ammonia, and methane ices, and has a pale
+      blue-green color due to methane in its atmosphere. Uranus has a system of
+      rings and a retinue of over two dozen known moons. Its extreme axial tilt
+      results in extreme seasonal variations and unusual magnetic field
+      orientations. Uranus is a cold, distant planet, and its inhospitable
+      conditions make it unsuitable for human exploration or colonization.
+    </p>
+
+    <p id="small_info_neptune">neptune</p>
+
+    <p id="more_info_neptune">
+      Neptune is the eighth and farthest planet from the Sun in our solar
+      system, known for its deep blue color due to the presence of methane in
+      its atmosphere. It is an ice giant, composed of water, ammonia, and
+      methane ices. Neptune has a turbulent and dynamic atmosphere with
+      high-speed winds and a prominent dark storm system called the Great Dark
+      Spot. It also has a ring system and a diverse moon population, including
+      Triton, a unique moon with retrograde motion. Neptune is a frigid, distant
+      world, and its inhospitable conditions make it unsuitable for human
+      exploration or habitation.
+    </p>
+
+    <p id="small_info_pluto">Pluto</p>
+
+    <p id="more_info_pluto">
+      Pluto was once considered the ninth planet in our solar system but was
+      reclassified as a dwarf planet in 2006. It is located in the Kuiper Belt,
+      a region beyond Neptune filled with icy objects. Pluto has a small,
+      irregular shape and is composed of rock and ice. It has five known moons,
+      with Charon being the largest and closest. Pluto's distant and cold
+      environment, along with its small size, makes it a challenging target for
+      space exploration.
+    </p>
+
+    <canvas id="mainCanvas"></canvas>
+  </head>
+  <body>
+    <script src="./script/script.js" type="module"></script>
+  </body>
+</html>
